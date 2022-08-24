@@ -1,0 +1,18 @@
+{
+  "name": "github-importer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:instea/github-importer.git",
+  "author": "Stanislav Miklik <stanislav.miklik@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "create-repos": "ts-node ./src/create-repos"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.13",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  }
+}
