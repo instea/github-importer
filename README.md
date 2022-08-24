@@ -8,6 +8,13 @@ In Github go to Settings -> Developer Settings -> `Personal Access Token` and ge
 
 - `repo`
 
+And fill-in team ID in `config.ts`
+
+```
+export GH_TOKEN=your token
+curl -H "Authorization: token $GH_TOKEN" https://api.github.com/orgs/instea/teams
+```
+
 ## Procedure
 
 ```
