@@ -5,5 +5,8 @@ export const config = {
     // instea-dev
     teamId: 2469941,
   },
-  repoNames: ["test1"],
+  // all repos to be migrated
+  repoNames: ["sport-events"],
+  // "git url prefix",
+  srcGitPrefix: "git@gitlab.com:instea.sk/",
 };

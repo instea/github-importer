@@ -19,5 +19,12 @@ curl -H "Authorization: token $GH_TOKEN" https://api.github.com/orgs/instea/team
 
 ```
 export GH_TOKEN=your token
+# create repo in github
 yarn create-repos
+# migrate repos to github
+yarn migrate
 ```
+
+## Possible steps afterwards
+
+Migration of other "things" like wiki etc can be done with https://github.com/piceaTech/node-gitlab-2-github

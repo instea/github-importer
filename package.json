@@ -7,7 +7,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "create-repos": "ts-node ./src/create-repos"
+    "create-repos": "ts-node ./src/create-repos",
+    "migrate": "ts-node ./src/migrate"
   },
   "devDependencies": {
     "@types/node": "^18.7.13",
