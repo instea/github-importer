@@ -19,8 +19,6 @@ curl -H "Authorization: token $GH_TOKEN" https://api.github.com/orgs/instea/team
 
 ```
 export GH_TOKEN=your token
-# create repo in github
-yarn create-repos
 # migrate repos to github
 yarn migrate
 ```
