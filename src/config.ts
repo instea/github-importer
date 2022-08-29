@@ -57,7 +57,6 @@ export const config = {
     "sport-events",
     "paintiano",
     "insteaWeb",
-    "react-native-popup-menu",
     "secret-keys",
     "qadash",
     "instea-knowledgebase",
